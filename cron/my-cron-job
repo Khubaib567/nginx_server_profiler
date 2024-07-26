@@ -1,0 +1,2 @@
+* * * * * root sendemail -f $EMAIL_FROM -t $EMAIL_TO -a /var/log/nginx/access.log -a /var/log/nginx/error.log -u "Nginx Logs" -m "Hey there! Here are the Nginx logs." -s $EMAIL_HOST:$EMAIL_PORT -o tls=yes -xu $EMAIL_TO -xp "$APP_PASSWORD" >> /var/log/cron.log
+# New line required

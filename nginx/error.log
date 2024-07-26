@@ -1,0 +1,50 @@
+2024/05/17 10:58:17 [notice] 1#1: using the "epoll" event method
+2024/05/17 10:58:17 [notice] 1#1: nginx/1.25.5
+2024/05/17 10:58:17 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/05/17 10:58:17 [notice] 1#1: OS: Linux 5.15.49-linuxkit-pr
+2024/05/17 10:58:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/17 10:58:17 [notice] 1#1: start worker processes
+2024/05/17 10:58:17 [notice] 1#1: start worker process 30
+2024/05/17 10:58:17 [notice] 1#1: start worker process 31
+2024/05/17 10:58:17 [notice] 1#1: start worker process 32
+2024/05/17 10:58:17 [notice] 1#1: start worker process 33
+2024/05/17 10:58:17 [notice] 1#1: start worker process 34
+2024/05/17 10:58:17 [notice] 1#1: start worker process 35
+2024/05/17 10:58:54 [error] 32#32: *3 open() "/usr/share/nginx/html/soccer" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /soccer HTTP/1.1", host: "localhost"
+2024/05/17 10:58:57 [error] 33#33: *4 open() "/usr/share/nginx/html/hello" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2024/05/17 10:59:06 [error] 34#34: *5 open() "/usr/share/nginx/html/cheese" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /cheese HTTP/1.1", host: "localhost"
+2024/05/17 11:00:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/05/17 11:00:53 [notice] 33#33: gracefully shutting down
+2024/05/17 11:00:53 [notice] 32#32: gracefully shutting down
+2024/05/17 11:00:53 [notice] 30#30: gracefully shutting down
+2024/05/17 11:00:53 [notice] 33#33: exiting
+2024/05/17 11:00:53 [notice] 34#34: gracefully shutting down
+2024/05/17 11:00:53 [notice] 31#31: gracefully shutting down
+2024/05/17 11:00:53 [notice] 35#35: gracefully shutting down
+2024/05/17 11:00:53 [notice] 32#32: exiting
+2024/05/17 11:00:53 [notice] 30#30: exiting
+2024/05/17 11:00:53 [notice] 34#34: exiting
+2024/05/17 11:00:53 [notice] 33#33: exit
+2024/05/17 11:00:53 [notice] 34#34: exit
+2024/05/17 11:00:53 [notice] 31#31: exiting
+2024/05/17 11:00:53 [notice] 32#32: exit
+2024/05/17 11:00:53 [notice] 35#35: exiting
+2024/05/17 11:00:53 [notice] 30#30: exit
+2024/05/17 11:00:53 [notice] 31#31: exit
+2024/05/17 11:00:53 [notice] 35#35: exit
+2024/05/17 11:00:53 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/05/17 11:00:53 [notice] 1#1: worker process 32 exited with code 0
+2024/05/17 11:00:53 [notice] 1#1: worker process 33 exited with code 0
+2024/05/17 11:00:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/05/17 11:00:53 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/05/17 11:00:53 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/05/17 11:00:53 [notice] 1#1: worker process 34 exited with code 0
+2024/05/17 11:00:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/05/17 11:00:53 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/05/17 11:00:53 [notice] 1#1: worker process 30 exited with code 0
+2024/05/17 11:00:53 [notice] 1#1: worker process 35 exited with code 0
+2024/05/17 11:00:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/05/17 11:00:53 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/05/17 11:00:53 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/05/17 11:00:53 [notice] 1#1: worker process 31 exited with code 0
+2024/05/17 11:00:53 [notice] 1#1: exit
